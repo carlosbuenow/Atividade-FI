@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.2rem;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}  
+html{
+    display: block;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+    background: url(https://img.freepik.com/fotos-gratis/fundo-de-textura-de-tinta-marmorizada-liquida-textura-abstrata-de-pintura-fluida-papel-de-parede-com-mistura-intensiva-de-cores_1258-85284.jpg?semt=ais_hybrid&w=740&q=80) no-repeat center/cover;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+header .nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    margin: 0.5 1rem;
+    width: 100%;
+    gap: 10rem;
+    text-decoration: none;
+}
+header .nav ul a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    border: 2px solid #0b500b9f;
+    padding: 1rem;
+    border-radius: 50px;
+    color: white;
+    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-size: cover;
+    transition-delay: 1s;
+}
+header .nav ul a:hover{
+    transform: scale(1.5);
+    transition: linear 1s;
+    box-shadow: 0 0 5px 4px white;
+}
+header h1{
+    font-size: 2.5rem;
+}
+.container1{
+    padding-top: 150px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #0b500b9f, #014701, #035a03dc);
+}
+#hardware{
+    border-top: 2px groove;
+    padding-top: 200px;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    row-gap: 1rem
+}
+#hardware img{
+    border-radius: 2px;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 10px;
+}
+#hardware h1{
+    align-self: center;
+    font-weight: 2rem;
+    padding-top: 5px;
+}
+#hardware h3{
+    gap: 2rem;
+    text-align: left;
+}
+.motherboard{
+    display: flex;
+    gap: 1.5rem;
+}
+.motherboard .mbh1{
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.motherboard p{
+    text-align: left;
+}
+.processors{
+    display: flex;
+   
+    gap: 1.5rem;
+    flex-direction: row;
+}
+.processors .p1{
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.videocard{
+    display: flex;
+    gap: 1.5rem;
+}
+.videocard .v1{
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.ram{
+    display: flex;
+    gap: 1.5rem;
+}
+.ram .r1{
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.hd{
+    display: flex;
+    gap: 1.5rem;
+}
+.hd .hd1{
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+.hwevolution{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+.hwul ul{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+    border-radius: 50px;
+    border: 3px groove;
+    box-shadow: 0 3px 8px 4px #0b500b9f;
+    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+}
+.hwul ul:hover{
+    transition: linear 0.8s;
+    box-shadow: 0 0 5px 4px white;
+}
+#operatingsystem{
+    border-top: 2px groove;
+    padding: 170px;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin: 2rem;
+}
+#operatingsystem h1{
+    text-align: center;
+}
+#operatingsystem .sos{
+    text-align: left;
+    margin: 2rem;
+}
+#operatingsystem .sos h2{
+    margin-bottom: 1.5rem;
+}
+#operatingsystem .imglinux{
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#operatingsystem .imglinux img{
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 10px;
+}
+#operatingsystem .unixul{
+    padding: 2.5rem;
+    border-radius: 50px;
+    border: 3px groove;
+    box-shadow: 0 3px 8px 4px #0b500b9f;
+    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+}
+#operatingsystem .unixul:hover{
+    transition: linear 0.8s;
+    box-shadow: 0 0 5px 4px white;
+}
+#operatingsystem .sos p{
+    margin-bottom: 3rem;
+}
+#operatingsystem .windows1 img{
+    width: 400px;
+    height: 250px;
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 10px;
+}
+#operatingsystem .windows1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-self: flex-start;
+}
+#operatingsystem .windows11{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-self: flex-end;
+}
+#operatingsystem .windows11 img{
+    height: 250px;
+    width: 450px;
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 10px;
+}
+#operatingsystem .windows{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+#operatingsystem .sos .version{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+#operatingsystem .sos .android{
+   row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#operatingsystem .sos .android img{
+    box-shadow: 0 0 5px 2px #ffffff;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+#operatingsystem .sos .androidul{
+    padding: 2.5rem;
+    border-radius: 50px;
+    border: 3px groove;
+    box-shadow: 0 3px 8px 4px #0b500b9f;
+    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+}
+.androidul:hover{
+    transition: linear 0.8s;
+    box-shadow: 0 0 5px 4px white;
+}
+#operatingsystem .titlewindows{
+    text-align: center;
+}
+#operatingsystem .titledos{
+    text-align: center;
+}
+#softwares{
+    border-top: 2px groove;
+    padding-top: 150px;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin: 2rem;
+}
+#softwares h1{
+    text-align: center;
+}
+#softwares p{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+#softwares .sos{
+    text-align: left;
+    margin: 2rem;
+}
+#softwares h2{
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+#softwares .swul{
+    padding: 2.5rem;
+    border-radius: 50px;
+    border: 3px groove;
+    box-shadow: 0 3px 8px 4px #0b500b9f;
+    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+}
+#softwares .swul:hover{
+    transition: linear 0.8s;
+    box-shadow: 0 0 5px 4px white;
+}
+#softwares h3{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+#softwares h4{
+    margin-bottom: 1.5rem;
+    margin-top: 1.7rem;
+    text-align: center;
+}
