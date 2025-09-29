@@ -19,7 +19,7 @@ header{
     align-items: center;
     margin: 0 auto;
     gap: 2rem;
-    background: url(https://img.freepik.com/fotos-gratis/fundo-de-textura-de-tinta-marmorizada-liquida-textura-abstrata-de-pintura-fluida-papel-de-parede-com-mistura-intensiva-de-cores_1258-85284.jpg?semt=ais_hybrid&w=740&q=80) no-repeat center/cover;
+    background: url(/F-I/assets/img/header.jpg) no-repeat center/cover;
     position: fixed;
     width: 100%;
     margin-bottom: 5rem;
@@ -41,7 +41,7 @@ header .nav ul a{
     padding: 1rem;
     border-radius: 50px;
     color: white;
-    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-image: url(/F-I/assets/img/ul.jpg);
     background-size: cover;
     transition-delay: 1s;
 }
@@ -157,7 +157,7 @@ header h1{
     border-radius: 50px;
     border: 3px groove;
     box-shadow: 0 3px 8px 4px #0b500b9f;
-    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-image: url(h/F-I/assets/img/ul.jpg);
 }
 .hwul ul:hover{
     transition: linear 0.8s;
@@ -196,7 +196,7 @@ header h1{
     border-radius: 50px;
     border: 3px groove;
     box-shadow: 0 3px 8px 4px #0b500b9f;
-    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-image: url(/F-I/assets/img/ul.jpg);
 }
 #operatingsystem .unixul:hover{
     transition: linear 0.8s;
@@ -254,7 +254,7 @@ header h1{
     border-radius: 50px;
     border: 3px groove;
     box-shadow: 0 3px 8px 4px #0b500b9f;
-    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-image: url(/F-I/assets/img/ul.jpg);
 }
 .androidul:hover{
     transition: linear 0.8s;
@@ -295,7 +295,7 @@ header h1{
     border-radius: 50px;
     border: 3px groove;
     box-shadow: 0 3px 8px 4px #0b500b9f;
-    background-image: url(https://media.gettyimages.com/id/1513515363/video/program-coding.jpg?s=640x640&k=20&c=usywTgJcpE8XYWuI9xz7jyZDDSRLUDC2Zoj604vQkOk=);
+    background-image: url(/F-I/assets/img/ul.jpg);
 }
 #softwares .swul:hover{
     transition: linear 0.8s;
